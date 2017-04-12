@@ -1,8 +1,13 @@
 # Create a vector of 100 employees ("Employee 1", "Employee 2", ... "Employee 100)
 
+employees <- c("employee1")
+
+nums <- 1:100
+paste('employee ', nums)
 
 # Create a vector of 2014 salaries using the runif function
 
+salaries.2014 <- runif(100, 50000,200000)
 
 # Create a vector of 2015 salaries that are typically higher than the 2014 salaires (use runif again)
 
